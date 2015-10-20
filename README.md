@@ -47,6 +47,21 @@ Follow these directions to create an account
    *_NOTE_: this tutorial will only use the free account
 3  You should see your dashboard, if you did, WELCOME TO GITHUB!!!
 
+###Setting up your SSH keys 
+
+1. On the top right of your dashboard, you should see your profile icon, click it 
+  * then click "settings"
+2. On the left sidebar, click "SSH Key"
+    * click "add SSH Key(top right of page)"  
+       * Tyoe in the name of your command line program where it says "Title"
+    
+3. _Note_: This part assumes you have either nitrous.io or c9.io as your command line
+On your command line program, go to your dashboard> click the gear icon on the top right
+    * press "SSH Key"
+    * double click the the SSH code, then copy and paste it to the box below the "title" box on github.  
+ 
+
+
 ---
 ## Repository Setup
 
