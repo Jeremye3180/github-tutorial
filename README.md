@@ -89,3 +89,40 @@ On your command line program, go to your dashboard> click the gear icon on the t
 
 ---
 ## Workflow & Commands
+
+Here are some commands and terms needed to use git and github:  
+- git init  
+   * starts git on the command line.  
+   
+- git config  
+
+   * is a one time setup action that is used to identfy the user.  
+   
+- git clone (Url)  
+- 
+    * makes a copy of someone's repo or your own without affecting the original copy  
+    
+- git add (file name)  
+- 
+    * saves the file on the stage  
+        * think of it as adding your snapshot to your scapbook collection  
+    
+- git commit -m "(short present tense specific action on (file name))  
+- - takes a snapshot of your code and saves it.  
+ 
+
+- git push  
+-  *PUSHES your code to github.  
+
+
+- git pull  
+
+
+- git status  
+  - Checks your current activites on the command line.
+
+
+remote  
+
+-it is basically github(online remote) and your command line is the local remote  
+    *it is where your code is stored.
