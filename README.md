@@ -28,7 +28,9 @@ or what is known as a cloud
 
 
 
-
+###The Difference
+* Github requires internet
+* Github stores code while git takes a picture of it.
 
 ---
 ## Initial Setup  
@@ -59,7 +61,7 @@ Follow these directions to create an account
 On your command line program, go to your dashboard> click the gear icon on the top right
     * press "SSH Key"
     * double click the the SSH code, then copy and paste it to the box below the "title" box on github.  
-4. Go to your command line and type in this line of code: ssh -T git@github.com  
+4. Go to your command line and type in this line of code: ```ssh -T git@github.com```  
 
        
 
@@ -74,17 +76,17 @@ On your command line program, go to your dashboard> click the gear icon on the t
 2.  give it a name , and a description and then create repo 
       *it should now  be on github, but you need it in the command line...
 3. go to the repo on github and double click on the SSH Url on the middle right and copy it.
-4. Lastly, go to your command line and type git clone (pasted url) and press enter.
+4. Lastly, go to your command line and type ```git clone (pasted url)``` and press enter.
 
 
 
 
 
-1. To start git in your command line, type git init
-2. And when you want to save the code, type this line of code FIRST: git add (file name) and press enter
-3. THEN, type git commit -m "(short present tense specific action on (file name)" and press enter.
+1. To start git in your command line, type ```git init```
+2. And when you want to save the code, type this line of code FIRST: ```git add (file name)``` and press enter
+3. THEN, type ```commit -m "(short present tense specific action on (file name)"``` and press enter.
    * your code should be saved to your command line
-4. Finally, type in git push to bring it up to your repo.
+4. Finally, type in ```git push```to bring it up to your repo.
 
 
 ---
@@ -95,34 +97,32 @@ Here are some commands and terms needed to use git and github:
    * starts git on the command line.  
    
 - git config  
+    * is a one time setup action that is used to identfy the user.  
+    * type git config --global user.name "First Last" when first using a command line
+    * finally, type git config --global user.email "username@hstat.org"
 
-   * is a one time setup action that is used to identfy the user.  
-   
 - git clone (Url)  
-- 
+ 
     * makes a copy of someone's repo or your own without affecting the original copy  
     
 - git add (file name)  
-- 
+
     * saves the file on the stage  
         * think of it as adding your snapshot to your scapbook collection  
     
-- git commit -m "(short present tense specific action on (file name))  
-- - takes a snapshot of your code and saves it.  
+- git commit -m "(short present tense specific action on (file name))"  
+ - takes a snapshot of your code and saves it.  
  
 
 - git push  
--  *PUSHES your code to github.  
-
-
-- git pull  
+  * PUSHES your code to github.  
 
 
 - git status  
   - Checks your current activites on the command line.
 
 
-remote  
+Remote  
 
 -it is basically github(online remote) and your command line is the local remote  
     *it is where your code is stored.
