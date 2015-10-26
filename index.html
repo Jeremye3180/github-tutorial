@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-dark.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <title>GitHub Tutorial by Jeremye3180</title>
+  </head>
+
+  <body>
+    <div id="container">
+      <div class="inner">
+
+        <header>
+          <h1>GitHub Tutorial</h1>
+          <h2>Gitty up with Github</h2>
+        </header>
+
+        <section id="downloads" class="clearfix">
+          <a href="https://github.com/Jeremye3180/github-tutorial/zipball/master" id="download-zip" class="button"><span>Download .zip</span></a>
+          <a href="https://github.com/Jeremye3180/github-tutorial/tarball/master" id="download-tar-gz" class="button"><span>Download .tar.gz</span></a>
+          <a href="https://github.com/Jeremye3180/github-tutorial" id="view-on-github" class="button"><span>View on GitHub</span></a>
+        </section>
+
+        <hr>
+
+        <section id="main_content">
+          <h1>
+<a id="github-tutorial" class="anchor" href="#github-tutorial" aria-hidden="true"><span class="octicon octicon-link"></span></a>GitHub Tutorial</h1>
+
+<p><em>by Jeremy Eisner</em></p>
+
+<hr>
+
+<h2>
+<a id="git-vs-github" class="anchor" href="#git-vs-github" aria-hidden="true"><span class="octicon octicon-link"></span></a>Git vs. GitHub</h2>
+
+<p>Git and Github are very similar to eachother, but they are two completely different tools.
+here is the rundown:</p>
+
+<h3>
+<a id="git" class="anchor" href="#git" aria-hidden="true"><span class="octicon octicon-link"></span></a>Git</h3>
+
+<ul>
+<li>
+<p>is essentially a snapshot of your code,  </p>
+
+<ul>
+<li>is known as version control.</li>
+</ul>
+</li>
+</ul>
+
+<h3>
+<a id="github" class="anchor" href="#github" aria-hidden="true"><span class="octicon octicon-link"></span></a>Github</h3>
+
+<ul>
+<li>is an area that stores code online<br>
+or what is known as a cloud </li>
+<li>
+<p>It is also used to work on diffent parts of code  with other people.</p>
+
+<ul>
+<li>The cool part is that you don't have to be on the same computer together  since you can exchange parts of code via internet to partners who can edit, fix, change, or work with the code to make it work</li>
+</ul>
+</li>
+</ul>
+
+<h3>
+<a id="the-difference" class="anchor" href="#the-difference" aria-hidden="true"><span class="octicon octicon-link"></span></a>The Difference</h3>
+
+<ul>
+<li>Github requires internet</li>
+<li>Github stores code while git takes a picture of it.</li>
+</ul>
+
+<hr>
+
+<h2>
+<a id="initial-setup" class="anchor" href="#initial-setup" aria-hidden="true"><span class="octicon octicon-link"></span></a>Initial Setup</h2>
+
+<h3>
+<a id="account-setup" class="anchor" href="#account-setup" aria-hidden="true"><span class="octicon octicon-link"></span></a>Account setup</h3>
+
+<p>To setup an account on github, you need to go to this website<br>
+<a href="https://github.com/">https://github.com/</a></p>
+
+<p>Follow these directions to create an account</p>
+
+<ol>
+<li>When you arrive at the site, click the green button on the  top right corner that says "sign up"
+
+<ul>
+<li>Create a username and password that you will remember and enter you email as well&gt; click Create an Account<br>
+(the green button at the bottom of the page)</li>
+</ul>
+</li>
+<li>Then choose a payment plan that works for you and Press the "Finish sign up button" ( green button at the bottom of the page),<br>
+*<em>NOTE</em>: this tutorial will only use the free account
+3  You should see your dashboard, if you did, WELCOME TO GITHUB!!!</li>
+</ol>
+
+<h3>
+<a id="setting-up-your-ssh-keys" class="anchor" href="#setting-up-your-ssh-keys" aria-hidden="true"><span class="octicon octicon-link"></span></a>Setting up your SSH keys</h3>
+
+<ol>
+<li>On the top right of your dashboard, you should see your profile icon, click it 
+
+<ul>
+<li>then click "settings"</li>
+</ul>
+</li>
+<li>
+<p>On the left sidebar, click "SSH Key"</p>
+
+<ul>
+<li>click "add SSH Key(top right of page)"<br>
+
+<ul>
+<li>Tyoe in the name of your command line program where it says "Title"</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><em>Note</em>: This part assumes you have either nitrous.io or c9.io as your command line
+On your command line program, go to your dashboard&gt; click the gear icon on the top right</p>
+
+<ul>
+<li>press "SSH Key"</li>
+<li>double click the the SSH code, then copy and paste it to the box below the "title" box on github.<br>
+</li>
+</ul>
+</li>
+<li>Go to your command line and type in this line of code: <code>ssh -T git@github.com</code><br>
+</li>
+</ol>
+
+<hr>
+
+<h2>
+<a id="repository-setup" class="anchor" href="#repository-setup" aria-hidden="true"><span class="octicon octicon-link"></span></a>Repository Setup</h2>
+
+<h3>
+<a id="how-to-work-with-git" class="anchor" href="#how-to-work-with-git" aria-hidden="true"><span class="octicon octicon-link"></span></a>How to work with git?</h3>
+
+<h4>
+<a id="to-make-a-repo" class="anchor" href="#to-make-a-repo" aria-hidden="true"><span class="octicon octicon-link"></span></a>To Make a repo</h4>
+
+<ol>
+<li> go to github.com and on your dashboard, you should see a green button on the middle right that says "new Respoisitory"</li>
+<li> give it a name , and a description and then create repo 
+  *it should now  be on github, but you need it in the command line...</li>
+<li>go to the repo on github and double click on the SSH Url on the middle right and copy it.</li>
+<li><p>Lastly, go to your command line and type <code>git clone (pasted url)</code> and press enter.</p></li>
+<li><p>To start git in your command line, type <code>git init</code></p></li>
+<li>And when you want to save the code, type this line of code FIRST: <code>git add (file name)</code> and press enter</li>
+<li>THEN, type <code>commit -m "(short present tense specific action on (file name)"</code> and press enter.
+
+<ul>
+<li>your code should be saved to your command line</li>
+</ul>
+</li>
+<li>Finally, type in <code>git push</code>to bring it up to your repo.</li>
+</ol>
+
+<hr>
+
+<h2>
+<a id="workflow--commands" class="anchor" href="#workflow--commands" aria-hidden="true"><span class="octicon octicon-link"></span></a>Workflow &amp; Commands</h2>
+
+<p>Here are some commands and terms needed to use git and github:  </p>
+
+<ul>
+<li>
+<p>git init  </p>
+
+<ul>
+<li>starts git on the command line.<br>
+</li>
+</ul>
+</li>
+<li>
+<p>git config  </p>
+
+<ul>
+<li>is a one time setup action that is used to identfy the user.<br>
+</li>
+<li>type git config --global user.name "First Last" when first using a command line</li>
+<li>finally, type git config --global user.email "<a href="mailto:username@hstat.org">username@hstat.org</a>"</li>
+</ul>
+</li>
+<li>
+<p>git clone (Url)  </p>
+
+<ul>
+<li>makes a copy of someone's repo or your own without affecting the original copy<br>
+</li>
+</ul>
+</li>
+<li>
+<p>git add (file name)  </p>
+
+<ul>
+<li>saves the file on the stage<br>
+
+<ul>
+<li>think of it as adding your snapshot to your scapbook collection<br>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>git commit -m "(short present tense specific action on (file name))"  </p>
+
+<ul>
+<li>takes a snapshot of your code and saves it.<br>
+</li>
+</ul>
+</li>
+<li>
+<p>git push  </p>
+
+<ul>
+<li>PUSHES your code to github.<br>
+</li>
+</ul>
+</li>
+<li>
+<p>git status  </p>
+
+<ul>
+<li>Checks your current activites on the command line.</li>
+</ul>
+</li>
+</ul>
+
+<p>Remote  </p>
+
+<p>-it is basically github(online remote) and your command line is the local remote<br>
+    *it is where your code is stored.</p>
+        </section>
+
+        <footer>
+          GitHub Tutorial is maintained by <a href="https://github.com/Jeremye3180">Jeremye3180</a><br>
+          This page was generated by <a href="https://pages.github.com">GitHub Pages</a>. Tactile theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.
+        </footer>
+
+        
+      </div>
+    </div>
+  </body>
+</html>
